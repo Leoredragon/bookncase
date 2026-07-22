@@ -77,5 +77,33 @@
     "myOrders": "Sipariş Geçmişim",
     "logout": "Çıkış Yap",
     "noOrders": "Henüz verilmiş bir siparişiniz bulunmamaktadır."
+  },
+  "About": {
+    "heroTitle": "Zamanın Ötesinde Bir Zanaat Mirası",
+    "story": "Ahşabın doğallığını ve birinci sınıf derinin zarafetini kağıtla buluşturma tutkusuyla Düzce'deki butik atölyemizde doğan Book n Case, sadece bir defter değil, fikirlerinizi nesiller boyu koruyacak bir miras tasarlıyor. Her bir dikişte, ciltte ve detayda usta ellerin ince işçiliği gizli.",
+    "valuesTitle": "Değerlerimiz",
+    "value1Title": "El İşçiliği",
+    "value1Desc": "Geleneksel ciltleme yöntemleri ve titiz el dikişleri ile üretilen benzersiz parçalar.",
+    "value2Title": "Sürdürülebilirlik",
+    "value2Desc": "Doğaya saygılı, geri dönüştürülebilir malzeme ve etik kaynak kullanımı.",
+    "value3Title": "Premium Materyal",
+    "value3Desc": "Hakiki İtalyan derisi, dolma kalem dostu 120gr fildişi kağıt ve yüksek kalite."
+  },
+  "Contact": {
+    "title": "Bizimle İletişime Geçin",
+    "subtitle": "Atölyemiz, ürünlerimiz veya özel siparişleriniz için her zaman buradayız.",
+    "addressTitle": "Merkez Atölye",
+    "addressValue": "Düzce, Türkiye",
+    "emailTitle": "E-posta",
+    "emailValue": "hello@bookncase.com",
+    "hoursTitle": "Çalışma Saatleri",
+    "hoursValue": "Pazartesi - Cuma: 09:00 - 18:00",
+    "formName": "Adınız Soyadınız",
+    "formEmail": "E-posta Adresiniz",
+    "formSubject": "Konu",
+    "formMessage": "Mesajınız",
+    "sendButton": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "successToast": "Mesajınız ulaştı, en kısa sürede dönüş yapacağız."
   }
 }

@@ -77,5 +77,33 @@
     "myOrders": "Order History",
     "logout": "Sign Out",
     "noOrders": "You haven't placed any orders yet."
+  },
+  "About": {
+    "heroTitle": "A Timeless Heritage of Craftsmanship",
+    "story": "Born in our boutique atelier in Düzce out of a passion for uniting natural wood and premium leather with fine paper, Book n Case designs not just notebooks, but a legacy to preserve your thoughts for generations. The delicate craftsmanship of master hands is woven into every stitch, cover, and detail.",
+    "valuesTitle": "Our Values",
+    "value1Title": "Master Craftsmanship",
+    "value1Desc": "Unique pieces created with traditional bookbinding techniques and meticulous hand-stitching.",
+    "value2Title": "Sustainability",
+    "value2Desc": "Environmentally respectful, recyclable materials and ethical sourcing.",
+    "value3Title": "Premium Materials",
+    "value3Desc": "Genuine Italian leather, fountain pen friendly 120gsm ivory paper, and uncompromised quality."
+  },
+  "Contact": {
+    "title": "Get in Touch",
+    "subtitle": "We are always here to assist with our atelier, products, or custom orders.",
+    "addressTitle": "Head Atelier",
+    "addressValue": "Düzce, Turkey",
+    "emailTitle": "Email",
+    "emailValue": "hello@bookncase.com",
+    "hoursTitle": "Opening Hours",
+    "hoursValue": "Monday - Friday: 09:00 - 18:00",
+    "formName": "Full Name",
+    "formEmail": "Email Address",
+    "formSubject": "Subject",
+    "formMessage": "Your Message",
+    "sendButton": "Send Message",
+    "sending": "Sending...",
+    "successToast": "Your message has been received. We will respond shortly."
   }
 }

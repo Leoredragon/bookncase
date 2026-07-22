@@ -77,5 +77,33 @@
     "myOrders": "Bestelgeschiedenis",
     "logout": "Uitloggen",
     "noOrders": "U heeft nog geen bestellingen geplaatst."
+  },
+  "About": {
+    "heroTitle": "Een Tijdloos Erfgoed van Vakmanschap",
+    "story": "Ontstaan in ons boetiekatelier in Düzce uit een passie om natuurlijk hout en premium leer te verenigen met fijn papier, ontwerpt Book n Case niet zomaar notitieboeken, maar een erfgoed om uw gedachten generaties lang te bewaren. Het verfijnde vakmanschap van meester-ambachtslieden is verweven in elke steek, kaft en detail.",
+    "valuesTitle": "Onze Waarden",
+    "value1Title": "Ambachtelijk Handwerk",
+    "value1Desc": "Unieke stukken gemaakt met traditionele inbindtechnieken en zorgvuldig handstiksel.",
+    "value2Title": "Duurzaamheid",
+    "value2Desc": "Milieuvriendelijke, recyclebare materialen en ethische inkoop.",
+    "value3Title": "Premium Materialen",
+    "value3Desc": "Echt Italiaans leer, vulpenvriendelijk 120g ivoorpapier en ongeëvenaarde kwaliteit."
+  },
+  "Contact": {
+    "title": "Neem Contact Op",
+    "subtitle": "Wij staan altijd voor u klaar met ons atelier, producten of speciale bestellingen.",
+    "addressTitle": "Hoofdatelier",
+    "addressValue": "Düzce, Turkije",
+    "emailTitle": "E-mail",
+    "emailValue": "hello@bookncase.com",
+    "hoursTitle": "Openingstijden",
+    "hoursValue": "Maandag - Vrijdag: 09:00 - 18:00",
+    "formName": "Volledige Naam",
+    "formEmail": "E-mailadres",
+    "formSubject": "Onderwerp",
+    "formMessage": "Uw Bericht",
+    "sendButton": "Bericht Verzenden",
+    "sending": "Verzenden...",
+    "successToast": "Uw bericht is ontvangen. Wij reageren zo snel mogelijk."
   }
 }
