@@ -4,7 +4,10 @@
     "collections": "Collections",
     "about": "About Us",
     "contact": "Contact",
-    "cart": "Cart"
+    "cart": "Cart",
+    "wishlist": "Wishlist",
+    "login": "Sign In",
+    "account": "My Account"
   },
   "Hero": {
     "badge": "Handcrafted & Luxury Design",
@@ -42,5 +45,37 @@
     "shipping": "Shipping",
     "free": "Free",
     "total": "Total"
+  },
+  "Auth": {
+    "loginTitle": "Sign In",
+    "registerTitle": "Create Account",
+    "loginSubtitle": "Welcome back to Book n Case.",
+    "registerSubtitle": "Join for an exclusive stationery experience.",
+    "email": "Email Address",
+    "password": "Password",
+    "fullName": "Full Name",
+    "loginButton": "Sign In",
+    "registerButton": "Create Account",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signUpLink": "Create One",
+    "signInLink": "Sign In"
+  },
+  "Wishlist": {
+    "title": "My Wishlist",
+    "subtitle": "Keep track of your favorite handcrafted items.",
+    "empty": "Your wishlist is currently empty."
+  },
+  "Search": {
+    "placeholder": "Search collection...",
+    "noResults": "No products match your query.",
+    "quickResults": "Search Results"
+  },
+  "Profile": {
+    "title": "My Account & Orders",
+    "subtitle": "View your order history and account details.",
+    "myOrders": "Order History",
+    "logout": "Sign Out",
+    "noOrders": "You haven't placed any orders yet."
   }
 }

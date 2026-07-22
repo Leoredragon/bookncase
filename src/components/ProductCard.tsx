@@ -2,10 +2,12 @@
 
 import { useLocale, useTranslations } from 'next-intl';
 import { Product } from '@/types/database.types';
-import { ShoppingBag, Check } from 'lucide-react';
-import { useState } from 'react';
+import { ShoppingBag, Check, Heart } from 'lucide-react';
+import { useState, useEffect } from 'react';
 import { useCartStore } from '@/store/useCartStore';
+import { useWishlistStore } from '@/store/useWishlistStore';
 import { Link } from '@/navigation';
+import { motion } from 'framer-motion';
 
 const DEFAULT_IMAGE =
   'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=800';
@@ -18,9 +20,17 @@ export default function ProductCard({ product }: ProductCardProps) {
   const locale = useLocale();
   const t = useTranslations('Product');
   const [added, setAdded] = useState(false);
-  const addItem = useCartStore((state) => state.addItem);
+  const [mounted, setMounted] = useState(false);
 
-  // Dynamic language key resolution (e.g. title_tr, title_en, title_nl)
+  const addItem = useCartStore((state) => state.addItem);
+  const { toggleWishlist, isInWishlist } = useWishlistStore();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const isFavorite = mounted ? isInWishlist(product.id) : false;
+
   const localizedTitle =
     (product[`title_${locale}` as keyof Product] as string) ||
     product.title_tr ||
@@ -41,23 +51,48 @@ export default function ProductCard({ product }: ProductCardProps) {
     setTimeout(() => setAdded(false), 1800);
   };
 
+  const handleToggleWishlist = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    toggleWishlist(product);
+  };
+
   const isOutOfStock = product.stock <= 0;
 
   return (
-    <div className="group flex flex-col justify-between h-full bg-white rounded-3xl p-4 shadow-xs hover:shadow-xl border border-stone-200/70 transition-all duration-300 transform hover:-translate-y-1">
+    <motion.div
+      whileHover={{ y: -6 }}
+      transition={{ duration: 0.3, ease: 'easeOut' }}
+      className="group flex flex-col justify-between h-full bg-white rounded-3xl p-4 shadow-xs hover:shadow-2xl border border-stone-200/70 transition-shadow duration-300"
+    >
       <Link href={`/product/${product.id}`} className="block space-y-4">
-        {/* Product Image */}
+        {/* Product Image Container */}
         <div className="relative aspect-4/5 w-full overflow-hidden rounded-2xl bg-stone-100 mb-4">
           <img
             src={product.image_url || DEFAULT_IMAGE}
             alt={localizedTitle}
-            className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 ease-out"
+            className="w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-700 ease-out"
           />
+
+          {/* Stock Tag */}
           {product.stock < 5 && product.stock > 0 && (
             <span className="absolute top-3 left-3 bg-[#C5A059] text-white text-[10px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded-full shadow-xs">
               Son {product.stock} adet
             </span>
           )}
+
+          {/* Wishlist Heart Button */}
+          <button
+            onClick={handleToggleWishlist}
+            className="absolute top-3 right-3 p-2 rounded-full bg-white/80 backdrop-blur-md hover:bg-white text-stone-700 hover:text-rose-600 transition-all shadow-md cursor-pointer z-10"
+            aria-label="Toggle Wishlist"
+          >
+            <Heart
+              className={`w-4 h-4 transition-colors ${
+                isFavorite ? 'fill-rose-600 text-rose-600' : 'text-stone-600'
+              }`}
+            />
+          </button>
         </div>
 
         {/* Product Info */}
@@ -105,6 +140,6 @@ export default function ProductCard({ product }: ProductCardProps) {
           </>
         )}
       </button>
-    </div>
+    </motion.div>
   );
 }

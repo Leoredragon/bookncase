@@ -28,6 +28,18 @@ export default function CheckoutPage() {
 
   useEffect(() => {
     setMounted(true);
+
+    // Auto-fill logged in user email & name if available
+    const fillLoggedInUser = async () => {
+      const { data } = await supabase.auth.getUser();
+      if (data?.user) {
+        if (data.user.email) setEmail(data.user.email);
+        if (data.user.user_metadata?.full_name) {
+          setFullName(data.user.user_metadata.full_name);
+        }
+      }
+    };
+    fillLoggedInUser();
   }, []);
 
   if (!mounted) {
@@ -134,11 +146,10 @@ export default function CheckoutPage() {
           </div>
 
           <Link
-            href="/"
+            href="/profile/orders"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#1C1B1A] text-[#FAF8F5] font-medium rounded-2xl shadow-xl hover:bg-[#2D2B2A] transition-all cursor-pointer"
           >
-            <ArrowLeft className="w-4 h-4 text-[#C5A059]" />
-            <span>{t('continueShopping')}</span>
+            <span>Siparişlerimi Görüntüle</span>
           </Link>
         </div>
       </main>

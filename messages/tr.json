@@ -4,7 +4,10 @@
     "collections": "Koleksiyonlar",
     "about": "Hakkımızda",
     "contact": "İletişim",
-    "cart": "Sepet"
+    "cart": "Sepet",
+    "wishlist": "Favoriler",
+    "login": "Giriş Yap",
+    "account": "Hesabım"
   },
   "Hero": {
     "badge": "El Yapımı & Lüks Tasarım",
@@ -42,5 +45,37 @@
     "shipping": "Kargo",
     "free": "Ücretsiz",
     "total": "Genel Toplam"
+  },
+  "Auth": {
+    "loginTitle": "Giriş Yap",
+    "registerTitle": "Hesap Oluştur",
+    "loginSubtitle": "Book n Case dünyasına hoş geldiniz.",
+    "registerSubtitle": "Lüks defter deneyimi için üye olun.",
+    "email": "E-posta Adresi",
+    "password": "Şifre",
+    "fullName": "Ad Soyad",
+    "loginButton": "Giriş Yap",
+    "registerButton": "Kayıt Ol",
+    "noAccount": "Hesabınız yok mu?",
+    "hasAccount": "Zaten hesabınız var mı?",
+    "signUpLink": "Hemen Kayıt Olun",
+    "signInLink": "Giriş Yapın"
+  },
+  "Wishlist": {
+    "title": "Favorilerim",
+    "subtitle": "Beğendiğiniz lüks defter ve kılıfları buradan takip edebilirsiniz.",
+    "empty": "Favorilerinizde henüz ürün bulunmuyor."
+  },
+  "Search": {
+    "placeholder": "Koleksiyonda ara...",
+    "noResults": "Aramanızla eşleşen ürün bulunamadı.",
+    "quickResults": "Arama Sonuçları"
+  },
+  "Profile": {
+    "title": "Hesabım & Siparişlerim",
+    "subtitle": "Geçmiş siparişlerinizi ve müşteri profilinizi görüntüleyin.",
+    "myOrders": "Sipariş Geçmişim",
+    "logout": "Çıkış Yap",
+    "noOrders": "Henüz verilmiş bir siparişiniz bulunmamaktadır."
   }
 }

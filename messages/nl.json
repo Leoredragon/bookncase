@@ -4,7 +4,10 @@
     "collections": "Collecties",
     "about": "Over Ons",
     "contact": "Contact",
-    "cart": "Winkelwagen"
+    "cart": "Winkelwagen",
+    "wishlist": "Verlanglijst",
+    "login": "Inloggen",
+    "account": "Mijn Account"
   },
   "Hero": {
     "badge": "Handgemaakt & Luxe Ontwerp",
@@ -34,7 +37,7 @@
     "customerDetails": "Klantgegevens",
     "fullName": "Volledige Naam",
     "email": "E-mailadres",
-    "placeOrder": "Bestelling Plaatsten",
+    "placeOrder": "Bestelling Plaatsen",
     "placingOrder": "Bestelling verwerken...",
     "successTitle": "Bestelling Ontvangen",
     "successMessage": "Bedankt voor uw bestelling. Details worden naar uw e-mailadres verzonden.",
@@ -42,5 +45,37 @@
     "shipping": "Verzending",
     "free": "Gratis",
     "total": "Totaal"
+  },
+  "Auth": {
+    "loginTitle": "Inloggen",
+    "registerTitle": "Account Aanmaken",
+    "loginSubtitle": "Welkom terug bij Book n Case.",
+    "registerSubtitle": "Meld u aan voor een exclusieve ervaring.",
+    "email": "E-mailadres",
+    "password": "Wachtwoord",
+    "fullName": "Volledige Naam",
+    "loginButton": "Inloggen",
+    "registerButton": "Account Aanmaken",
+    "noAccount": "Nog geen account?",
+    "hasAccount": "Heeft u al een account?",
+    "signUpLink": "Registreer Nu",
+    "signInLink": "Inloggen"
+  },
+  "Wishlist": {
+    "title": "Mijn Verlanglijst",
+    "subtitle": "Bekijk uw favoriete notitieboeken en hoezen.",
+    "empty": "Uw verlanglijst is momenteel leeg."
+  },
+  "Search": {
+    "placeholder": "Zoek in collectie...",
+    "noResults": "Geen producten gevonden.",
+    "quickResults": "Zoekresultaten"
+  },
+  "Profile": {
+    "title": "Mijn Account & Bestellingen",
+    "subtitle": "Bekijk uw bestelgeschiedenis en accountgegevens.",
+    "myOrders": "Bestelgeschiedenis",
+    "logout": "Uitloggen",
+    "noOrders": "U heeft nog geen bestellingen geplaatst."
   }
 }
