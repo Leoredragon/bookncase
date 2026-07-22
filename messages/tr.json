@@ -1,0 +1,46 @@
+{
+  "Header": {
+    "brand": "Book n Case",
+    "collections": "Koleksiyonlar",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "cart": "Sepet"
+  },
+  "Hero": {
+    "badge": "El Yapımı & Lüks Tasarım",
+    "title": "Düşüncelerinizi Şık Bir Şekilde Saklayın",
+    "description": "Özel üretim deri ve yüksek kaliteli kağıtlardan hazırlanan zarif defter ve kılıf koleksiyonumuzu keşfedin.",
+    "cta": "Koleksiyonu Keşfet",
+    "secondaryCta": "Hikayemiz"
+  },
+  "Collections": {
+    "badge": "Özel Seçki",
+    "title": "Koleksiyonumuz",
+    "subtitle": "Usta ellerde hazırlanan, zamanın ötesinde tasarıma sahip premium defter ve aksesuar seçkisi."
+  },
+  "Product": {
+    "addToCart": "Sepete Ekle",
+    "added": "Eklendi",
+    "outOfStock": "Tükendi",
+    "inStock": "Stokta Var",
+    "loading": "Koleksiyon yükleniyor...",
+    "empty": "Henüz koleksiyon eklenmedi."
+  },
+  "Checkout": {
+    "title": "Ödeme & Sipariş",
+    "cartSummary": "Sipariş Özeti",
+    "emptyCart": "Sepetiniz henüz boş.",
+    "continueShopping": "Alışverişe Devam Et",
+    "customerDetails": "Müşteri Bilgileri",
+    "fullName": "Ad Soyad",
+    "email": "E-posta Adresi",
+    "placeOrder": "Siparişi Tamamla",
+    "placingOrder": "Sipariş Hazırlanıyor...",
+    "successTitle": "Siparişiniz Başarıyla Alındı",
+    "successMessage": "Siparişiniz için teşekkür ederiz. Detaylar ve kargo bilgileri e-posta adresinize iletilecektir.",
+    "subtotal": "Ara Toplam",
+    "shipping": "Kargo",
+    "free": "Ücretsiz",
+    "total": "Genel Toplam"
+  }
+}

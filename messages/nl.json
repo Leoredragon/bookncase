@@ -1,0 +1,46 @@
+{
+  "Header": {
+    "brand": "Book n Case",
+    "collections": "Collecties",
+    "about": "Over Ons",
+    "contact": "Contact",
+    "cart": "Winkelwagen"
+  },
+  "Hero": {
+    "badge": "Handgemaakt & Luxe Ontwerp",
+    "title": "Bewaar Uw Gedachten in Stijl",
+    "description": "Ontdek onze collectie elegante notitieboeken en hoezen handgemaakt van premium leer en fijn papier.",
+    "cta": "Ontdek Collectie",
+    "secondaryCta": "Ons Verhaal"
+  },
+  "Collections": {
+    "badge": "Geselecteerde Collectie",
+    "title": "Onze Collectie",
+    "subtitle": "Een selectie van premium notitieboeken en accessoires gemaakt door meester-ambachtslieden."
+  },
+  "Product": {
+    "addToCart": "In Winkelwagen",
+    "added": "Toegevoegd",
+    "outOfStock": "Niet op Voorraad",
+    "inStock": "Op Voorraad",
+    "loading": "Collectie laden...",
+    "empty": "Nog geen artikelen beschikbaar."
+  },
+  "Checkout": {
+    "title": "Afronden",
+    "cartSummary": "Besteloverzicht",
+    "emptyCart": "Uw winkelwagen is momenteel leeg.",
+    "continueShopping": "Verder winkelen",
+    "customerDetails": "Klantgegevens",
+    "fullName": "Volledige Naam",
+    "email": "E-mailadres",
+    "placeOrder": "Bestelling Plaatsten",
+    "placingOrder": "Bestelling verwerken...",
+    "successTitle": "Bestelling Ontvangen",
+    "successMessage": "Bedankt voor uw bestelling. Details worden naar uw e-mailadres verzonden.",
+    "subtotal": "Subtotaal",
+    "shipping": "Verzending",
+    "free": "Gratis",
+    "total": "Totaal"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "Header": {
+    "brand": "Book n Case",
+    "collections": "Collections",
+    "about": "About Us",
+    "contact": "Contact",
+    "cart": "Cart"
+  },
+  "Hero": {
+    "badge": "Handcrafted & Luxury Design",
+    "title": "Preserve Your Thoughts in Style",
+    "description": "Discover our collection of elegant notebooks and cases handcrafted with premium leather and fine paper.",
+    "cta": "Explore Collection",
+    "secondaryCta": "Our Story"
+  },
+  "Collections": {
+    "badge": "Curated Selection",
+    "title": "Our Collection",
+    "subtitle": "A selection of premium notebooks and accessories crafted by master artisans with timeless design."
+  },
+  "Product": {
+    "addToCart": "Add to Cart",
+    "added": "Added",
+    "outOfStock": "Out of Stock",
+    "inStock": "In Stock",
+    "loading": "Loading collection...",
+    "empty": "No items available yet."
+  },
+  "Checkout": {
+    "title": "Checkout",
+    "cartSummary": "Order Summary",
+    "emptyCart": "Your cart is currently empty.",
+    "continueShopping": "Continue Shopping",
+    "customerDetails": "Customer Details",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "placeOrder": "Complete Order",
+    "placingOrder": "Processing Order...",
+    "successTitle": "Order Placed Successfully",
+    "successMessage": "Thank you for your order. Confirmation details will be sent to your email address.",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "free": "Free",
+    "total": "Total"
+  }
+}
