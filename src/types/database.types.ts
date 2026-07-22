@@ -10,6 +10,7 @@ export interface Product {
   description_nl?: string;
   price: number;
   image_url: string;
+  gallery_urls?: string[];
   stock: number;
   created_at: string;
 }
