@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/navigation';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   const t = useTranslations('Hero');
@@ -10,20 +10,20 @@ export default function Hero() {
       {/* Background Image with Ambient Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=2000"
+          src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=2000"
           alt="Book n Case Luxury Notebooks"
           className="w-full h-full object-cover object-center filter brightness-[0.92] contrast-[1.05]"
         />
         {/* Soft Vignette & Gradient Overlays */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#FAF8F5]/95 via-[#FAF8F5]/75 to-transparent sm:via-[#FAF8F5]/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#FAF8F5]/95 via-[#FAF8F5]/80 to-transparent sm:via-[#FAF8F5]/65" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#FAF8F5] via-transparent to-[#FAF8F5]/40" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="max-w-2xl text-left space-y-8">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#1C1B1A]/90 text-[#FAF8F5] text-xs font-medium tracking-widest uppercase shadow-md border border-[#C5A059]/40 backdrop-blur-md">
-            <Sparkles className="w-3.5 h-3.5 text-[#C5A059]" />
+          {/* Minimalist Badge */}
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#1C1B1A] text-[#FAF8F5] text-[10px] font-semibold tracking-widest uppercase shadow-md border border-[#C5A059]/40 backdrop-blur-md">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]" />
             <span>{t('badge')}</span>
           </div>
 
@@ -48,7 +48,7 @@ export default function Hero() {
             </Link>
 
             <Link
-              href="/#about"
+              href="/about"
               className="inline-flex items-center justify-center px-8 py-4 bg-[#FAF8F5]/80 hover:bg-[#FAF8F5] text-[#1C1B1A] font-medium text-base rounded-2xl border border-stone-300/80 transition-all duration-300 backdrop-blur-md hover:shadow-md cursor-pointer"
             >
               {t('secondaryCta')}

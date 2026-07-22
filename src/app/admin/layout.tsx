@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { supabase } from '@/lib/supabase';
-import { Package, ShoppingCart, LogOut, ShieldCheck, ExternalLink, Sparkles } from 'lucide-react';
+import { Package, ShoppingCart, LogOut, ShieldCheck, ExternalLink } from 'lucide-react';
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   const router = useRouter();
@@ -61,7 +61,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       <div className="min-h-screen bg-stone-100/70 flex items-center justify-center">
         <div className="text-stone-500 font-serif animate-pulse flex items-center gap-2">
           <ShieldCheck className="w-5 h-5 text-[#C5A059]" />
-          <span>SaaS Dashboard Yükleniyor...</span>
+          <span>Admin Dashboard Yükleniyor...</span>
         </div>
       </div>
     );
@@ -83,7 +83,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           >
             <span>Book <span className="text-[#C5A059] font-sans font-light italic text-lg">&</span> Case</span>
             <span className="bg-[#1C1B1A] text-[#FAF8F5] text-[9px] uppercase tracking-widest font-semibold px-2 py-0.5 rounded-full font-sans ml-1">
-              SaaS
+              Admin
             </span>
           </Link>
 
@@ -123,7 +123,6 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             className="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-stone-50 border border-stone-200/80 text-stone-700 hover:bg-stone-100 text-xs font-medium transition-colors"
           >
             <span className="flex items-center gap-1.5">
-              <Sparkles className="w-3.5 h-3.5 text-[#C5A059]" />
               <span>Mağazayı Gör</span>
             </span>
             <ExternalLink className="w-3.5 h-3.5 text-stone-400" />

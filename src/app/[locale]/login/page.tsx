@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { supabase } from '@/lib/supabase';
 import { Link, useRouter } from '@/navigation';
-import { Mail, Lock, ArrowRight, Sparkles } from 'lucide-react';
+import { Mail, Lock, ArrowRight } from 'lucide-react';
 
 export default function CustomerLoginPage() {
   const t = useTranslations('Auth');
@@ -43,8 +43,8 @@ export default function CustomerLoginPage() {
       <div className="bg-white rounded-3xl p-8 sm:p-10 shadow-2xl border border-stone-200/80 space-y-8 w-full">
         <div className="text-center space-y-3">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#1C1B1A] text-[#FAF8F5] text-[10px] font-semibold uppercase tracking-widest">
-            <Sparkles className="w-3.5 h-3.5 text-[#C5A059]" />
-            <span>Book n Case</span>
+            <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059]" />
+            <span>BOOK N CASE ATELIER</span>
           </div>
 
           <h1 className="text-3xl font-serif font-bold text-[#1C1B1A]">

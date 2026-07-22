@@ -2,8 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import { Sparkles, Leaf, Award, Compass, Heart } from 'lucide-react';
-import { Link } from '@/navigation';
+import { Leaf, Award, Compass, Gem } from 'lucide-react';
 
 export default function AboutPage() {
   const t = useTranslations('About');
@@ -32,7 +31,7 @@ export default function AboutPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#1C1B1A]/80 border border-[#C5A059]/40 backdrop-blur-md text-xs uppercase tracking-widest text-[#C5A059]"
+            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#1C1B1A]/80 border border-[#C5A059]/40 backdrop-blur-md text-[10px] uppercase tracking-widest text-[#C5A059]"
           >
             <Compass className="w-3.5 h-3.5" />
             <span>Atölye Düzce • Hikayemiz</span>
@@ -71,7 +70,7 @@ export default function AboutPage() {
       {/* Values Section (3 Columns) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t border-stone-200/80">
         <div className="text-center max-w-xl mx-auto mb-16 space-y-3">
-          <span className="text-xs font-semibold uppercase tracking-widest text-[#C5A059] bg-[#C5A059]/10 px-3.5 py-1.5 rounded-full inline-block">
+          <span className="text-[10px] font-semibold uppercase tracking-widest text-[#C5A059] bg-[#C5A059]/10 px-3.5 py-1.5 rounded-full inline-block border border-[#C5A059]/20">
             Standartlarımız
           </span>
           <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#1C1B1A]">
@@ -127,7 +126,7 @@ export default function AboutPage() {
             className="bg-white rounded-3xl p-8 shadow-xs hover:shadow-xl border border-stone-200/80 transition-all duration-300 text-center space-y-4"
           >
             <div className="w-16 h-16 bg-[#1C1B1A] text-[#C5A059] rounded-2xl flex items-center justify-center mx-auto shadow-md">
-              <Sparkles className="w-8 h-8" />
+              <Gem className="w-8 h-8" />
             </div>
             <h3 className="text-xl font-serif font-bold text-[#1C1B1A]">
               {t('value3Title')}
