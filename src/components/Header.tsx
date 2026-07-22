@@ -83,13 +83,13 @@ export default function Header() {
                 {t('collections')}
               </Link>
               <Link
-                href="/#about"
+                href="/about"
                 className="text-stone-700 hover:text-[#C5A059] transition-colors duration-200"
               >
                 {t('about')}
               </Link>
               <Link
-                href="/#contact"
+                href="/contact"
                 className="text-stone-700 hover:text-[#C5A059] transition-colors duration-200"
               >
                 {t('contact')}
@@ -214,6 +214,20 @@ export default function Header() {
               className="text-2xl font-serif text-[#1C1B1A] hover:text-[#C5A059] transition-colors"
             >
               {t('collections')}
+            </Link>
+            <Link
+              href="/about"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-2xl font-serif text-[#1C1B1A] hover:text-[#C5A059] transition-colors"
+            >
+              {t('about')}
+            </Link>
+            <Link
+              href="/contact"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-2xl font-serif text-[#1C1B1A] hover:text-[#C5A059] transition-colors"
+            >
+              {t('contact')}
             </Link>
             <Link
               href="/wishlist"
