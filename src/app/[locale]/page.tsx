@@ -52,7 +52,7 @@ export default async function HomePage({
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#FAF8F5]/10 text-[#C5A059] text-xs font-semibold uppercase tracking-widest border border-[#C5A059]/30">
             <Compass className="w-3.5 h-3.5" />
-            <span>Düzce Atölyesi</span>
+            <span>{tAbout('atelierTitle')}</span>
           </div>
 
           <h2 className="text-3xl sm:text-5xl font-serif font-bold tracking-tight text-[#FAF8F5]">
@@ -66,9 +66,9 @@ export default async function HomePage({
           <div className="pt-4">
             <Link
               href="/about"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-[#C5A059] text-[#1C1B1A] font-semibold text-sm hover:bg-[#b08d4b] transition-all shadow-xl"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-[#C5A059] text-[#1C1B1A] font-semibold text-sm hover:bg-[#b08d4b] transition-all shadow-xl cursor-pointer"
             >
-              <span>Hikayemizin Tamamını Oku</span>
+              <span>{tAbout('readFullStory')}</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -80,7 +80,7 @@ export default async function HomePage({
         <div className="bg-white rounded-3xl p-8 sm:p-14 border border-stone-200/80 shadow-xl flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="space-y-4 max-w-xl text-center md:text-left">
             <span className="text-xs font-semibold uppercase tracking-widest text-[#C5A059] bg-[#C5A059]/10 px-3.5 py-1.5 rounded-full inline-block">
-              İletişim
+              {tContact('title')}
             </span>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#1C1B1A]">
               {tContact('title')}
@@ -102,9 +102,9 @@ export default async function HomePage({
 
           <Link
             href="/contact"
-            className="px-8 py-4 rounded-2xl bg-[#1C1B1A] text-[#FAF8F5] font-semibold text-sm hover:bg-[#2D2B2A] transition-all shadow-lg shrink-0 flex items-center gap-2"
+            className="px-8 py-4 rounded-2xl bg-[#1C1B1A] text-[#FAF8F5] font-semibold text-sm hover:bg-[#2D2B2A] transition-all shadow-lg shrink-0 flex items-center gap-2 cursor-pointer"
           >
-            <span>İletişim Formuna Git</span>
+            <span>{tContact('goToContactForm')}</span>
             <ArrowRight className="w-4 h-4 text-[#C5A059]" />
           </Link>
         </div>

@@ -87,7 +87,9 @@
     "value2Title": "Duurzaamheid",
     "value2Desc": "Milieuvriendelijke, recyclebare materialen en ethische inkoop.",
     "value3Title": "Premium Materialen",
-    "value3Desc": "Echt Italiaans leer, vulpenvriendelijk 120g ivoorpapier en ongeëvenaarde kwaliteit."
+    "value3Desc": "Echt Italiaans leer, vulpenvriendelijk 120g ivoorpapier en ongeëvenaarde kwaliteit.",
+    "readFullStory": "Lees Ons Volledige Verhaal",
+    "atelierTitle": "Düzce Atelier"
   },
   "Contact": {
     "title": "Neem Contact Op",
@@ -104,6 +106,7 @@
     "formMessage": "Uw Bericht",
     "sendButton": "Bericht Verzenden",
     "sending": "Verzenden...",
-    "successToast": "Uw bericht is ontvangen. Wij reageren zo snel mogelijk."
+    "successToast": "Uw bericht is ontvangen. Wij reageren zo snel mogelijk.",
+    "goToContactForm": "Ga naar Contactformulier"
   }
 }

@@ -87,7 +87,9 @@
     "value2Title": "Sürdürülebilirlik",
     "value2Desc": "Doğaya saygılı, geri dönüştürülebilir malzeme ve etik kaynak kullanımı.",
     "value3Title": "Premium Materyal",
-    "value3Desc": "Hakiki İtalyan derisi, dolma kalem dostu 120gr fildişi kağıt ve yüksek kalite."
+    "value3Desc": "Hakiki İtalyan derisi, dolma kalem dostu 120gr fildişi kağıt ve yüksek kalite.",
+    "readFullStory": "Hikayemizin Tamamını Oku",
+    "atelierTitle": "Düzce Atölyesi"
   },
   "Contact": {
     "title": "Bizimle İletişime Geçin",
@@ -104,6 +106,7 @@
     "formMessage": "Mesajınız",
     "sendButton": "Mesaj Gönder",
     "sending": "Gönderiliyor...",
-    "successToast": "Mesajınız ulaştı, en kısa sürede dönüş yapacağız."
+    "successToast": "Mesajınız ulaştı, en kısa sürede dönüş yapacağız.",
+    "goToContactForm": "İletişim Formuna Git"
   }
 }
